@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Posts",
+				"PostsListController"
+			],
+			[
+				"pos",
+				"postId"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/timwang/GitHub/meteorstrap"
+	],
+	"file_history":
+	[
+		"/Users/timwang/GitHub/myfirstbootstrap/index.html",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/timwang/GitHub/microscope/.meteor/local/build/programs/web.browser/app/client/views/template.posts_list.js",
+		"/Users/timwang/GitHub/microscope/client/stylesheets/style.css",
+		"/Users/timwang/GitHub/microscope/client/templates/includes/header.js",
+		"/Users/timwang/GitHub/microscope/client/templates/includes/header.html",
+		"/Users/timwang/GitHub/microscope/lib/router.js",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_edit.js",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_item.html",
+		"/Users/timwang/GitHub/microscope/client/helpers/spacebars.js",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_item.js",
+		"/Users/timwang/GitHub/microscope/lib/collections/posts.js",
+		"/Users/timwang/GitHub/microscope/client/views/post_item.html",
+		"/Users/timwang/GitHub/microscope/client/views/posts_list.html",
+		"/Users/timwang/GitHub/microscope/server/fixtures.js",
+		"/Users/timwang/GitHub/microscope/server/publications.js",
+		"/Users/timwang/GitHub/microscope/client/views/posts/posts_list.js",
+		"/Users/timwang/GitHub/microscope/client/templates/notifications/notifications.html",
+		"/Users/timwang/GitHub/microscope/lib/collections/comments.js",
+		"/Users/timwang/GitHub/microscope/lib/collections/notifications.js",
+		"/Users/timwang/GitHub/microscope/client/templates/notifications/notifications.js",
+		"/Users/timwang/GitHub/microscope/client/templates/comments/notifications.js",
+		"/Users/timwang/GitHub/microscope/client/templates/comments/comment_item.js",
+		"/Users/timwang/GitHub/microscope/client/templates/application/layout.html",
+		"/Users/timwang/GitHub/microscope/client/main.html",
+		"/Users/timwang/GitHub/microscope/client/templates/comments/comment_submit.html",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_page.html",
+		"/Users/timwang/GitHub/microscope/client/templates/comments/comment_submit.js",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_page.js",
+		"/Users/timwang/GitHub/microscope/client/templates/comments/comment_item.html",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_submit.js",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_edit.html",
+		"/Users/timwang/GitHub/microscope/client/templates/posts/post_submit.html",
+		"/Users/timwang/GitHub/microscope/client/helpers/errors.js",
+		"/Users/timwang/GitHub/microscope/client/templates/includes/errors.html",
+		"/Users/timwang/GitHub/microscope/client/templates/includes/errors.js",
+		"/Users/timwang/GitHub/microscope/client/helpers/router.js",
+		"/Users/timwang/GitHub/microscope/lib/permissions.js",
+		"/Users/timwang/GitHub/microscope/client/views/posts/post_item.js",
+		"/Users/timwang/GitHub/microscope/client/templates/includes/access_denied.html",
+		"/Users/timwang/GitHub/microscope/client/helpers/config.js",
+		"/Users/timwang/GitHub/microscope/client/templates/application/layout.js",
+		"/Users/timwang/GitHub/microscope/client/views/application/layout.html",
+		"/Users/timwang/GitHub/microscope/client/templates/application/not_found.html",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/timwang/GitHub/microscope/client/main.js",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"\\d",
+			".post-anima",
+			"this.postslimit",
+			"postList",
+			"postsList",
+			"this.postssub",
+			"indoption",
+			"postslistcontroll",
+			"upvote",
+			"disabled",
+			"disable",
+			"post:",
+			"telescopeId",
+			"telescop",
+			"postsLimi",
+			"telescopeID",
+			"._exten",
+			"commentsCount",
+			"notfortemplate",
+			"layout",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "meteorstrap.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"postslistjs",
+				".meteor/local/build/programs/web.browser/app/client/views/template.posts_list.js"
+			],
+			[
+				"posts_list",
+				"client/views/posts_list.html"
+			],
+			[
+				"healt",
+				"client/templates/includes/header.html"
+			],
+			[
+				"syt",
+				"client/stylesheets/style.css"
+			],
+			[
+				"posteditjs",
+				"client/templates/posts/post_edit.js"
+			],
+			[
+				"header",
+				"client/templates/includes/header.html"
+			],
+			[
+				"router",
+				"lib/router.js"
+			],
+			[
+				".css",
+				"client/stylesheets/style.css"
+			],
+			[
+				"postit",
+				"client/templates/posts/post_item.html"
+			],
+			[
+				"posts",
+				"lib/collections/posts.js"
+			],
+			[
+				"positemjs",
+				"client/templates/posts/post_item.js"
+			],
+			[
+				"postitem",
+				"client/templates/posts/post_item.html"
+			],
+			[
+				"postitem.html",
+				"client/views/post_item.html"
+			],
+			[
+				"fixture",
+				"server/fixtures.js"
+			],
+			[
+				"postslist",
+				"client/views/posts_list.html"
+			],
+			[
+				"postlist",
+				"client/views/posts_list.html"
+			],
+			[
+				"fixtu",
+				"server/fixtures.js"
+			],
+			[
+				"public",
+				"server/publications.js"
+			],
+			[
+				"posts.",
+				"lib/collections/posts.js"
+			],
+			[
+				"publications",
+				"server/publications.js"
+			],
+			[
+				"router.",
+				"lib/router.js"
+			],
+			[
+				"fix",
+				"server/fixtures.js"
+			],
+			[
+				"publica",
+				"server/publications.js"
+			],
+			[
+				"header.ht",
+				"client/templates/includes/header.html"
+			],
+			[
+				"router.js",
+				"lib/router.js"
+			],
+			[
+				"publication",
+				"server/publications.js"
+			],
+			[
+				"comment.j",
+				"lib/collections/comments.js"
+			],
+			[
+				"comme",
+				"lib/collections/comments.js"
+			],
+			[
+				"post_item.js",
+				"client/templates/posts/post_item.js"
+			],
+			[
+				"comments",
+				"lib/collections/comments.js"
+			],
+			[
+				"posts.js",
+				"lib/collections/posts.js"
+			],
+			[
+				"publication.",
+				"server/publications.js"
+			],
+			[
+				"postpage",
+				"client/templates/posts/post_page.html"
+			],
+			[
+				"publis",
+				"server/publications.js"
+			],
+			[
+				"postedit.js",
+				"client/templates/posts/post_edit.js"
+			],
+			[
+				"posted",
+				"client/templates/posts/post_edit.html"
+			],
+			[
+				"postsub",
+				"client/templates/posts/post_submit.js"
+			],
+			[
+				"postsubmit.js",
+				"client/templates/posts/post_submit.js"
+			],
+			[
+				"error",
+				"client/helpers/errors.js"
+			],
+			[
+				"postedit",
+				"client/templates/posts/post_edit.js"
+			],
+			[
+				"postsubm",
+				"client/templates/posts/post_submit.js"
+			],
+			[
+				"layou",
+				"client/templates/application/layout.html"
+			],
+			[
+				"postitem.js",
+				"client/views/posts/post_item.js"
+			],
+			[
+				"rout",
+				"lib/router.js"
+			],
+			[
+				"postslist.js",
+				"client/views/posts/posts_list.js"
+			],
+			[
+				"postsubmit",
+				"client/templates/posts/post_submit.js"
+			],
+			[
+				"post_item",
+				"client/views/posts/post_item.js"
+			],
+			[
+				"post",
+				"client/views/post_item.html"
+			],
+			[
+				"lay",
+				"client/views/application/layout.html"
+			],
+			[
+				"layout",
+				"client/views/application/layout.html"
+			],
+			[
+				"laou",
+				"client/views/application/layout.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
