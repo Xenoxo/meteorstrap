@@ -3,13 +3,15 @@ body {
   color: #000; }
 
   .main-text {
-  	text-align: center;
   	font-size: 100px;
   	font-weight: 900;
   }
 
   .sub-text {
-  	text-align: center;
   	font-size: 40px;
   	font-weight: 200;
+  }
+
+  .center {
+	text-align: center;
   }
