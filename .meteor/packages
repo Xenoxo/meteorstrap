@@ -22,3 +22,5 @@ iron:router
 ejson
 twbs:bootstrap
 manuelschoebel:wait-on-lib
+http
+simple:reactive-method
