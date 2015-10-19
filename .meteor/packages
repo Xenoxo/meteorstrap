@@ -24,3 +24,5 @@ twbs:bootstrap
 manuelschoebel:wait-on-lib
 http
 simple:reactive-method
+twitter
+mrt:twit
