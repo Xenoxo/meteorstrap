@@ -1,3 +1,4 @@
+/*
 if (TweetData.find().count() === 0) {
   var now = new Date().getTime();
   for (var i = 5; i >= 0; i--) {
@@ -9,3 +10,4 @@ if (TweetData.find().count() === 0) {
   	});
   }
 }
+*/
