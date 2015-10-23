@@ -12,8 +12,7 @@ function tweetInsert(){
 
 */
 dataReply = "";
-
-//function twitterCall(){
+/*
 	Twit.get('statuses/user_timeline', 
 		{user_id:600434038, count:10, exclude_replies:true }, 
 		Meteor.bindEnvironment(function(err, data, response) { 
@@ -22,27 +21,54 @@ dataReply = "";
   			TweetData.insert({tweetBlob: "tweet1"});
 		})
 	);
+	
+function twitterCall(){
+	
+}*/
+
+	
+	
+
+function twitterCall(){
+		Twit.get('statuses/user_timeline', 
+		{user_id:600434038, count:10, exclude_replies:true }, 
+		Meteor.bindEnvironment(
+		function(err, data, response) { 
+			var str,tagPos;
+			for (var i = data.length - 1; i >= 0; i--) {
+				str = data[i].text.split(" ");
+				tagPos = str.indexOf("#paid");
+				if(tagPos >= 0){ //return -1 if there is no #paid value
+					
+					//do things in here
+
+					//TweetData.insert({tweetBlob: data});
+					console.log(data);
+					//console.log(TweetData.find());
+					//console.log(str[tagPos] + str[tagPos+1]);
+					
+				}
+			}
+
+			
+  			//TweetData.insert({tweetBlob: "tweet3"});
+		}
+		)
+		);
+	
+	}
 
 
-//}
 
-//twitterCall();
-
-
+function testing(){
+	
+}
 
 //console.log(dataReply);
-//setInterval(, 10000);
-/*
-var str;
-for (var i = data.length - 1; i >= 0; i--) {
-	str = data[i].text.split(" ");
-	tagPos = str.indexOf("#paid");
-	if(tagPos >= 0){
-		console.log(str[tagPos] + str[tagPos+1]);
-		//change this to add data to the mongoDB
-	}
-}
-*/
+Meteor.setInterval(twitterCall, 10000);
+
+
+
 
 //TweetData.insert({tweetBlob: "tweet"});
 
