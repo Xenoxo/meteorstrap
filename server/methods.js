@@ -57,6 +57,6 @@ function twitterCall(){
 		);
 		
 	}
-Meteor.setInterval(twitterCall, 5000);
+Meteor.setInterval(twitterCall, 120000);
 
 //latestID = TweetData.findOne({},{fields:{'tweetID': 1, _id:0}},{sort:{tweetID:-1}}).tweetID;
