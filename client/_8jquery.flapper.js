@@ -1,5 +1,5 @@
-(function($) {
 
+(function(){
     var prependToId = 'Flap', flappers = {};
 
     var Flapper = function($ele, options) {
@@ -262,8 +262,7 @@
                     _this.$ele.trigger("digitAnimEnd");
                 } else {
                     var duration = Math.floor(
-                            (_this.options.timing - _this.options.min_timing)
-                            / distance + _this.options.min_timing
+                            ((_this.options.timing - _this.options.min_timing)/distance) + _this.options.min_timing
                     );
                     _this.increment(duration);
                     _this.timing_timer = setTimeout(frameFunc, duration);
@@ -298,4 +297,4 @@
         return this;
     }
     
-})(jQuery);
+}).call(this);
