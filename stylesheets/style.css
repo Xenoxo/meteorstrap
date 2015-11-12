@@ -2,16 +2,26 @@ body {
   background: #ffffff;
   color: #000; }
 
-  .main-text {
-  	font-size: 100px;
-  	font-weight: 200;
-  }
+.main-text {
+	font-size: 100px;
+	font-weight: 200;
+}
 
-  .sub-text {
-  	font-size: 40px;
-  	font-weight: 200;
-  }
+.sub-text {
+	font-size: 40px;
+	font-weight: 200;
+}
 
-  .center {
-	text-align: center;
-  }
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,3 +1,7 @@
+Meteor.publish("tweetdata", function(){
+	return TweetData.find();
+});
+
 var latestID = 0; //used as reference for the id of the latest tweet
 
 var Twit = new TwitMaker({
@@ -57,6 +61,7 @@ function twitterCall(){
 		);
 		
 	}
-Meteor.setInterval(twitterCall, 5000);
+Meteor.setInterval(twitterCall, 120000); //1000 = 1 second, currently set to 2 minutes/refresh
+
 
 //latestID = TweetData.findOne({},{fields:{'tweetID': 1, _id:0}},{sort:{tweetID:-1}}).tweetID;
