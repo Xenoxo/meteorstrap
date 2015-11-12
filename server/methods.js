@@ -1,3 +1,7 @@
+Meteor.publish("tweetdata", function(){
+	return TweetData.find();
+});
+
 var latestID = 0; //used as reference for the id of the latest tweet
 
 var Twit = new TwitMaker({
