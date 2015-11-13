@@ -18,5 +18,5 @@ https://github.com/ttezel/twit
 
 https://github.com/jayKayEss/Flapper
 
-#[Demo Here](http://tweetcost.meteor.com)
+###[Demo Here](http://tweetcost.meteor.com)
 (May be slow to load due to running through Meteor free service)
