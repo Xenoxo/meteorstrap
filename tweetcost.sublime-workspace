@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"tweet",
+				"tweetID"
+			],
+			[
+				"data",
+				"data	Meteor: this.data"
+			],
+			[
+				"get",
+				"get	Get Elements"
+			],
+			[
+				"check",
+				"checkTwitter (fn) [C]"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"Posts",
 				"PostsListController"
 			],
@@ -27,7 +51,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 354.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -48,7 +72,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 574.0
 	},
 	"console":
 	{
@@ -67,14 +91,38 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/timwang/GitHub/meteorstrap"
-	],
 	"file_history":
 	[
-		"/Users/timwang/GitHub/myfirstbootstrap/index.html",
+		"/Users/timwang/GitHub/meteorstrap/client/_8jquery.flapper.js",
+		"/Users/timwang/GitHub/meteorstrap/lib/router.js",
+		"/Users/timwang/GitHub/meteorstrap/client/flapper/_8jquery.flapper.js",
+		"/Users/timwang/GitHub/meteorstrap/lib/flapper/_8jquery.flapper.js",
+		"/Users/timwang/GitHub/meteorstrap/server/methods.js",
+		"/Users/timwang/GitHub/meteorstrap/client/main.js",
+		"/Users/timwang/GitHub/meteorstrap/lib/_8jquery.flapper.js",
+		"/Users/timwang/GitHub/meteorstrap/public/_8jquery.flapper.js",
 		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/timwang/GitHub/meteorstrap/stylesheets/style.css",
+		"/Users/timwang/GitHub/meteorstrap/client/main.html",
+		"/Users/timwang/GitHub/meteorstrap/server/fixtures.js",
+		"/Users/timwang/GitHub/meteorstrap/client/layout.html",
+		"/Users/timwang/GitHub/meteorstrap/lib/collections/tweedata.js",
+		"/Users/timwang/GitHub/meteorstrap/lib/tweetdata.js",
+		"/Users/timwang/GitHub/meteorstrap/lib/collections/TweetData.js",
+		"/Users/timwang/GitHub/meteorstrap/.meteor/local/build/main.js",
+		"/Users/timwang/GitHub/meteorstrap/client/about.html",
+		"/Users/timwang/GitHub/meteorstrap/client/home.htm",
+		"/Users/timwang/GitHub/meteorstrap/client/home.html",
+		"/Users/timwang/GitHub/meteorstrap/meteorstrap.js",
+		"/Users/timwang/GitHub/meteorstrap/helper/router.js",
+		"/Users/timwang/GitHub/meteorstrap/router.js",
+		"/Users/timwang/GitHub/meteorstrap/meteorstrap.html",
+		"/Users/timwang/GitHub/meteorstrap/Default.sublime-theme",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/timwang/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/timwang/GitHub/meteorstrap/index.html",
+		"/Users/timwang/GitHub/myfirstbootstrap/index.html",
 		"/Users/timwang/GitHub/microscope/.meteor/local/build/programs/web.browser/app/client/views/template.posts_list.js",
 		"/Users/timwang/GitHub/microscope/client/stylesheets/style.css",
 		"/Users/timwang/GitHub/microscope/client/templates/includes/header.js",
@@ -123,7 +171,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -138,6 +186,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"total",
+			"length",
+			"material",
+			"DataTest",
+			"template",
 			"0",
 			"\\d",
 			".post-anima",
@@ -184,7 +237,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -221,7 +274,7 @@
 	"project": "meteorstrap.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

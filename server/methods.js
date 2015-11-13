@@ -4,8 +4,9 @@ Meteor.publish("tweetdata", function(){
 
 var latestID = 0; //used as reference for the id of the latest tweet
 
+//put your twitter api callers here
 var Twit = new TwitMaker({
-    consumer_key:'',
+     consumer_key:'',
     consumer_secret:'',
     access_token:'',
     access_token_secret:''
