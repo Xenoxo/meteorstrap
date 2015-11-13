@@ -1,8 +1,8 @@
 #tweetcost
 
-###An single page app that helps tally expenses you tweet on the go
+###What this is
 
-Tweetcost keeps a running total of any tweets made with the hastag "#paid" and a number, then it totals it. The tweet can be any length, but immutable rule is that the value following "#paid" must be a plain number. It can be either an integer (3) or a double (4.27).
+Asingle page app that helps tally expenses you tweet on the go. Tweetcost keeps a running total of any tweets made with the hastag "#paid" and a number, then it totals it. The tweet can be any length, but immutable rule is that the value following "#paid" must be a plain number. It can be either an integer (3) or a double (4.27).
 
 ###How it works
 
@@ -12,8 +12,11 @@ Upon discovering the "#paid" keyword in a tweet, the app stores the tweet as a n
 
 The total is then reflected on the front end using the flapper project, which is refreshed every minute.
 
-###In conjunction with Meteor, this project uses a few libraries, of which are listed below:
+####In conjunction with Meteor, this project uses a few libraries, of which are listed below:
 
 https://github.com/ttezel/twit
 
 https://github.com/jayKayEss/Flapper
+
+#[Demo Here](http://tweetcost.meteor.com)
+(May be slow to load due to running through Meteor free service)
