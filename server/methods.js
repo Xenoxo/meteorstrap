@@ -6,10 +6,10 @@ var latestID = 0; //used as reference for the id of the latest tweet
 
 //put your twitter api callers here
 var Twit = new TwitMaker({
-     consumer_key:'',
-    consumer_secret:'',
-    access_token:'',
-    access_token_secret:''
+consumer_key:'QOkwkQ5xUWBSLiKI69JxHw2jt',
+    consumer_secret:'1uSahkvGheSNGQR3K9rf9ao1SYO289Ph0DLEuTvwor3MqmllL4',
+    access_token:'600434038-AjJuNPRiSOkuK1FwXqQdR9egfu0304fhvQe3ueR9',
+    access_token_secret:'fIHXdJlLgqx6SAd0C8PoKF1ubteagbYtoG494A6nOBqQs'
 });
 
 function twitterCall(){
